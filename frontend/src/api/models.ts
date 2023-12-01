@@ -61,6 +61,11 @@ export type ChatRequestGpt = {
     approach: Approaches;
     conversation_id: string;
     query: string;
+    filterQuery: string;
+    customEntries: {
+        usuarioIds: string[];
+        searchService: string;
+    };
     overrides?: AskRequestOverrides;
 };
 

@@ -1,0 +1,89 @@
+{
+  "areas": [
+    {
+      "name": "Petroleo y Gas",
+      "categories": [
+        {
+          "name": "Manuales",
+          "subcategories": ["IAPG", "Subcategoria 2", "Subcategoria 3"]
+        },
+        {
+          "name": "Categoria 2",
+          "subcategories": ["Subcategoria 4", "Subcategoria 5", "Subcategoria 6"]
+        },
+        {
+          "name": "Categoria 3",
+          "subcategories": ["Subcategoria 7", "Subcategoria 8", "Subcategoria 9"]
+        }
+      ]
+    },
+    {
+      "name": "Viaticos",
+      "categories": [
+        {
+          "name": "Politicas",
+          "subcategories": ["Fundacion UV", "Subcategoria 11", "Subcategoria 12"]
+        },
+        {
+          "name": "Categoria 5",
+          "subcategories": ["Subcategoria 13", "Subcategoria 14", "Subcategoria 15"]
+        },
+        {
+          "name": "Categoria 6",
+          "subcategories": ["Subcategoria 16", "Subcategoria 17", "Subcategoria 18"]
+        }
+      ]
+    },
+    {
+      "name": "Emisiones GEI",
+      "categories": [
+        {
+          "name": "Informes",
+          "subcategories": ["ONU", "Subcategoria 20", "Subcategoria 21"]
+        },
+        {
+          "name": "Categoria 8",
+          "subcategories": ["Subcategoria 22", "Subcategoria 23", "Subcategoria 24"]
+        },
+        {
+          "name": "Categoria 9",
+          "subcategories": ["Subcategoria 25", "Subcategoria 26", "Subcategoria 27"]
+        }
+      ]
+    },
+    {
+      "name": "Practicas Agricolas",
+      "categories": [
+        {
+          "name": "Manuales",
+          "subcategories": ["INTA", "Subcategoria 29", "Subcategoria 30"]
+        },
+        {
+          "name": "Categoria 11",
+          "subcategories": ["Subcategoria 31", "Subcategoria 32", "Subcategoria 33"]
+        },
+        {
+          "name": "Categoria 12",
+          "subcategories": ["Subcategoria 34", "Subcategoria 35", "Subcategoria 36"]
+        }
+      ]
+    },
+    {
+      "name": "Area 5",
+      "categories": [
+        {
+          "name": "Categoria 13",
+          "subcategories": ["Subcategoria 37", "Subcategoria 38", "Subcategoria 39"]
+        },
+        {
+          "name": "Categoria 14",
+          "subcategories": ["Subcategoria 40", "Subcategoria 41", "Subcategoria 42"]
+        },
+        {
+          "name": "Categoria 15",
+          "subcategories": ["Subcategoria 43", "Subcategoria 44", "Subcategoria 45"]
+        }
+      ]
+    }
+  ]
+}

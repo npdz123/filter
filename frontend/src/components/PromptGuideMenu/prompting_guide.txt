@@ -1,0 +1,35 @@
+<h1>Prompting Guide for Effective Search Queries</h1>
+
+<p>Welcome to our knowledge retrieval system! To help you get the most accurate and relevant results, we've prepared this guide on how to craft effective search queries. Remember that our system is powered by AI, and the quality of your queries plays a significant role in the results you receive.</p>
+
+<h2>1. Be Clear and Specific</h2>
+<p>When formulating your query, be as clear and specific as possible. Clearly state what information you're looking for. Avoid vague or general queries that may result in a wide range of irrelevant documents.</p>
+
+<h2>2. Use Keywords</h2>
+<p>Identify the keywords related to your query. These are the essential terms that describe your information need. Include these keywords in your query to narrow down your search.</p>
+
+<h2>3. Boolean Operators</h2>
+<p>Use Boolean operators to refine your search:
+<ul>
+  <li><strong>AND:</strong> Use "AND" to require both terms in the results.</li>
+  <li><strong>OR:</strong> Use "OR" to include either term in the results.</li>
+  <li><strong>NOT:</strong> Use "NOT" to exclude specific terms from the results.</li>
+</ul>
+Example: <em>"Oil production AND Brazil NOT Venezuela."</em></p>
+
+<h2>4. Phrase Searches</h2>
+<p>For exact matches, enclose phrases in double quotation marks. This helps when searching for specific sentences or names.
+Example: <em>"Climate change impact on agriculture."</em></p>
+
+<h2>5. Filters</h2>
+<p>You can further narrow down results using filters. These can include categories, date ranges, or document types. Use filters as appropriate to your query.
+Example: <em>"Recent scientific studies on renewable energy."</em></p>
+
+<h2>6. Refine Your Query</h2>
+<p>Don't be discouraged if your initial query doesn't yield the results you want. If you're not finding what you need, try adjusting your query by using different keywords, Boolean operators, or filters.</p>
+
+<h2>7. Source Citing</h2>
+<p>Our system provides source information with each result. To find the source of a specific fact or statistic, refer to the source cited within square brackets.
+Example: <em>"The global CO2 emissions increased by 5% in 2021 [sourceXYZ.pdf]."</em></p>
+
+<p>We hope this guide helps you find the information you're looking for. Feel free to explore and refine your queries to get the best results from our knowledge base!</p>

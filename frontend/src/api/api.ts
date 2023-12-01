@@ -1,8 +1,6 @@
 import { AskRequest, AskResponse, AskResponseGpt, ChatRequest, ChatRequestGpt } from "./models";
 
-
-
-export async function chatApiGpt(options: ChatRequestGpt): Promise<AskResponseGpt> {
+export async function chatApiGpt(options: ChatRequestGpt, filterQuery: string, selectedHistory: boolean): Promise<AskResponseGpt> {
     const response = await fetch("/chatgpt", {
         method: "POST",
         headers: {
@@ -12,7 +10,14 @@ export async function chatApiGpt(options: ChatRequestGpt): Promise<AskResponseGp
             history: options.history,
             approach: options.approach,
             conversation_id: options.conversation_id,
+            //conversation_id: options.customEntries?.conversationIds,
             query: options.query,
+            filterQuery: filterQuery, // Include the filterQuery in the request
+            //conversationIds: options.customEntries?.conversationIds,
+            usuarioIds: options.customEntries?.usuarioIds,
+            SearchService: options.customEntries?.searchService,
+            selectedHistory: selectedHistory,
+            //chat_history: options.history, // Include chat history in the request
             overrides: {
                 semantic_ranker: options.overrides?.semanticRanker,
                 semantic_captions: options.overrides?.semanticCaptions,

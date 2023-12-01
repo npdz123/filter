@@ -1,0 +1,36 @@
+/* Adjust the label size and placement */
+.UsuarioIdMenu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin to separate the input and label */
+}
+
+.UsuarioIdMenu input {
+  padding: 5px;
+  flex: 1;
+}
+
+.UsuarioIdMenu label {
+  flex: 1; /* Make the label take the remaining space */
+  margin: 0; /* Remove the default margin */
+  background-color: #ccc;
+}
+
+.UsuarioIdMenu button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px; /* Add margin to separate the input and button */
+}
+
+.UsuarioIdMenu button:hover {
+  background-color: #005a9e;
+}
+
+/* Style for "User Entries:" label */
+.UsuarioIdLabel {
+  margin: 0; /* Remove the default margin */
+  padding: 5px; /* Add padding for a consistent appearance */
+}

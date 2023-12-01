@@ -1,0 +1,42 @@
+.PromptGuideMenu {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.PromptGuideMenu button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.PromptGuideMenu button:hover {
+  background-color: #005baa;
+}
+
+.GuideContent {
+  display: none;
+  margin-top: 10px;
+}
+
+.GuideContent p {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.PromptGuideMenu button:focus + .GuideContent,
+.GuideContent:hover {
+  display: block;
+}
+
+.commandButton {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

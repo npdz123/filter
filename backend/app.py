@@ -46,10 +46,20 @@ def static_file(path):
 def chatgpt():
     conversation_id = request.json["conversation_id"]
     question = request.json["query"]
+    filterQuery = request.json.get("filterQuery")
+    usuarioIds = request.json.get("usuarioIds")
+    #conversationIds = request.json.get("conversationIds")
+    SearchService = request.json.get("SearchService")
+    selectedHistory = request.json.get("selectedHistory", False)
     client_principal_id = request.headers.get('X-MS-CLIENT-PRINCIPAL-ID')
     client_principal_name = request.headers.get('X-MS-CLIENT-PRINCIPAL-NAME')
+    #history = request.json.get("history", [])
     logging.info("[webbackend] conversation_id: " + conversation_id)    
     logging.info("[webbackend] question: " + question)
+    logging.info("[webbackend] Filter Query: " + filterQuery)
+    logging.info("[webbackend] Usuario: " + str(usuarioIds))
+    #logging.info("[webbackend] CONVERSACION ID: " + str(conversationIds))
+    logging.info("[webbackend] Servicio de busqueda: " + SearchService)
     logging.info(f"[webbackend] User principal: {client_principal_id}")
     logging.info(f"[webbackend] User name: {client_principal_name}")
 
@@ -65,6 +75,11 @@ def chatgpt():
         payload = json.dumps({
             "conversation_id": conversation_id,
             "question": question,
+            "filterQuery": filterQuery,
+            "usuarioIds": usuarioIds,
+            #"conversationIds": conversationIds,
+            "SearchService": SearchService,
+            'selectedHistory': selectedHistory, 
             "client_principal_id": client_principal_id,
             "client_principal_name": client_principal_name
         })
